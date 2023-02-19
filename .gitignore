@@ -1,4 +1,4 @@
 node_modules
 *.vsix
-themes/Prism-color-theme-minimized.json
-themes/Prism-color-theme-no-bold-minimized.json
+themes/Nuclear-color-theme-light-minimized.json
+themes/Nuclear-color-theme-light-no-bold-minimized.json

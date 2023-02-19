@@ -1,17 +1,17 @@
 {
-	"name": "prism",
-	"displayName": "Light Theme ( Prism )",
+	"name": "nuclear-light",
+	"displayName": "NucleaR'z Theme Light",
 	"description": "Light theme for ... eyes or something.",
-	"version": "1.0.8",
-	"publisher": "usernamehw",
+	"version": "1.0.0",
+	"publisher": "NuclleaR",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/usernamehw/vscode-theme-prism"
+		"url": "https://github.com/NuclleaR/vscode-theme-nuclear-light"
 	},
 	"icon": "img/icon.png",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/usernamehw/vscode-theme-prism/issues"
+		"url": "https://github.com/NuclleaR/vscode-theme-nuclear-light/issues"
 	},
 	"engines": {
 		"vscode": "^1.30.0"
@@ -32,24 +32,25 @@
 	],
 	"scripts": {
 		"vscode:prepublish": "node minimize.js",
-		"watch": "nodemon --watch themes/Prism-color-theme.json --exec \"npm run vscode:prepublish\""
+		"watch": "nodemon --watch themes/Nuclear-color-theme-light.json --exec \"npm run vscode:prepublish\""
 	},
 	"contributes": {
 		"themes": [
 			{
-				"label": "Prism",
+				"label": "Nuclear'z Light",
 				"uiTheme": "vs",
-				"path": "./themes/Prism-color-theme-minimized.json"
+				"path": "./themes/Nuclear-color-theme-light-minimized.json"
 			},
 			{
-				"label": "Prism (No Bold)",
+				"label": "Nuclear'z Light (No Bold)",
 				"uiTheme": "vs",
-				"path": "./themes/Prism-color-theme-no-bold-minimized.json"
+				"path": "./themes/Nuclear-color-theme-light-no-bold-minimized.json"
 			}
 		]
 	},
 	"devDependencies": {
-		"@types/node": "^14.17.4",
-		"json5": "^2.2.0"
+		"@types/node": "^18.14.0",
+		"json5": "^2.2.3",
+		"nodemon": "^2.0.20"
 	}
 }

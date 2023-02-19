@@ -2,10 +2,11 @@
 .vscode-test/**
 .gitignore
 vsc-extension-quickstart.md
-themes/Prism-color-theme.json
+themes/Nuclear-color-theme-light.json
 minimize.js
-package-lock.json
+pnpm-lock.yaml
 .gitattributes
 
 img/react_example.png
+img/react_example_2.png
 LICENSE
